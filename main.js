@@ -9,7 +9,7 @@ class Personaje {
     this.velocidad = velocidad;
   }
 
-// implemento los metodos  atacar y saludar en la clase personaje, los cuales son comunes a todos los personajes del juego, el metodo atacar recibe un objetivo, se generan  numeros aleatrios para el ataque y la defensa, y se calcula el daño hecho al objetivo. El metodo saludar imprime un mensaje de saludo con el nombre y la vida del personaje.
+// implemento los metodos  atacar y saludar en la clase personaje, los cuales son comunes a todos los personajes del juego, el metodo atacar recibe un objetivo, se generan  numeros aleatrios para el ataque y la defensa, y se calcula el daño hecho al objetivo. El metodo saludar imprime un mensaje de saludo con el nombre y la clase del personaje.
 
   atacar(objetivo){
     let ataque = Math.floor(Math.random() * (this.danio + 1)) ;
